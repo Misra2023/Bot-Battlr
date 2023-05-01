@@ -3,3 +3,4 @@ function Header(){
         <div><h1>this header</h1></div>
     )
 }
+export default Header;
