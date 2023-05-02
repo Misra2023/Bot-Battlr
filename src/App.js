@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+import React from "react"
+import BotsPage from "./components/BotsPage"
 import './App.css';
+
 
 function App() {
   return (
-
-    <Header/>
+    <div className="App">
+      <BotsPage />
+    </div>
   );
 }
 
 export default App;
+
